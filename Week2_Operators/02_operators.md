@@ -14,7 +14,7 @@
 <hr>
 </div>
 
-[<< Week 1: Variable and Built-in Functions](/Week1_variables_builtin_functions/01_variables_builtin_functions.md) | [Week 3:  >>](todo)
+[<< Week 1: Variable and Built-in Functions](/Week1_variables_builtin_functions/01_variables_builtin_functions.md) | [Week 3:  Strings >>](/Week3_Strings/03_strings.md)
 
 - [📘 Week 2](#-week-2)
   - [Boolean](#boolean)
@@ -313,4 +313,4 @@ You have lived for 3153600000 seconds.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Week 1: Variable and Built-in Functions](/Week1_variables_builtin_functions/01_variables_builtin_functions.md) | [Week 3: >>](todo)
+[<< Week 1: Variable and Built-in Functions](/Week1_variables_builtin_functions/01_variables_builtin_functions.md) | [Week 3: Strings >>](/Week3_Strings/03_strings.md)
