@@ -1,16 +1,17 @@
 # Variables in Python
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
+first_name = 'Malek'
+last_name = 'Shefat'
+country = 'Japan'
+city = 'Tokyo'
 age = 250
-is_married = True
+is_married = False
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
-    'firstname': 'Asabeneh',
-    'lastname': 'Yetayeh',
-    'country': 'Finland',
-    'city': 'Helsinki'
+    'firstname': 'Malek',
+    'lastname': 'Shefat',
+    'country': 'Japan',
+    'city': 'Tokyo',
+    'skills': ['HTML', 'CSS', 'JS', 'React', 'Python']
 }
 
 # Printing the values stored in the variables
@@ -26,7 +27,7 @@ print('Skills: ', skills)
 print('Person information: ', person_info)
 
 # Declaring multiple variables in one line
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'Malek', 'Shefat', 'Helsink', 250, False
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)

@@ -99,18 +99,18 @@ _Example:_
 
 ```py
 # Variables in Python
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
+first_name = 'Malek'
+last_name = 'Shefat'
+country = 'Japan'
+city = 'Tokyo'
 age = 250
-is_married = True
+is_married = False
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
-   'firstname':'Asabeneh',
-   'lastname':'Yetayeh',
-   'country':'Finland',
-   'city':'Helsinki'
+   'firstname':'Malek',
+   'lastname':'Shefat',
+   'country':'Japan',
+   'city':'Tokyo'
    }
 ```
 
@@ -150,7 +150,7 @@ Multiple variables can also be declared in one line:
 **Example:**
 
 ```py
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'Malek', 'Shefat', 'Helsink', 250, False
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
@@ -184,21 +184,21 @@ There are several data types in Python. To identify the data type we use the _ty
 # Different python data types
 # Let's declare variables with various data types
 
-first_name = 'Asabeneh'     # str
-last_name = 'Yetayeh'       # str
-country = 'Finland'         # str
-city= 'Helsinki'            # str
+first_name = 'Malek'     # str
+last_name = 'Shefat'       # str
+country = 'Japan'         # str
+city= 'Tokyo'            # str
 age = 250                   # int, it is not my real age, don't worry about it
 
 # Printing out types
-print(type('Asabeneh'))     # str
+print(type('Malek'))     # str
 print(type(first_name))     # str
 print(type(10))             # int
 print(type(3.14))           # float
 print(type(1 + 1j))         # complex
 print(type(True))           # bool
 print(type([1, 2, 3, 4]))     # list
-print(type({'name':'Asabeneh','age':250, 'is_married':250}))    # dict
+print(type({'name':'Malek','age':250, 'is_married':False}))    # dict
 print(type((1,2)))                                              # tuple
 print(type(zip([1,2],[3,4])))                                   # set
 ```
@@ -227,12 +227,12 @@ print(num_str)                  # '10'
 
 # str to int or float
 num_str = '10.6'
-print('num_int', int(num_str))      # 10
+print('num_int', int(num_str))      # Error!
 print('num_float', float(num_str))  # 10.6
 
 # str to list
-first_name = 'Asabeneh'
-print(first_name)               # 'Asabeneh'
+first_name = 'Malek'
+print(first_name)               # 'Malek'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
